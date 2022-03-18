@@ -1,0 +1,32 @@
+.header_text {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 80px auto 0 auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_text h1{
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+}
+
+.header_text p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: white;
+}
+
+@media (min-width: 800px) {
+    .header_text{
+       display: inline-flex;
+       align-items: center;
+    }
+
+}

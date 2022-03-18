@@ -1,0 +1,13 @@
+.main_button{
+    width: 100%;
+    max-width: 420px;
+    height: 60px;
+    margin: 12px auto;
+    background-color: var(--red) ;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 2px #e27f74;
+    cursor: pointer;
+}

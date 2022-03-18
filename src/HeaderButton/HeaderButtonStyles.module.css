@@ -1,0 +1,27 @@
+.header_button {
+    width: 100%;
+    max-width: 500px;
+    height: 60px;
+    margin: 20px auto 0 auto;
+    padding: 0 60px;
+    background-color: var(--yellow);
+    border-radius: 8px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: white;
+    box-shadow: 0 8px 8px hsl(0, 43%, 56%);
+    cursor: pointer;
+}
+
+.header_button span{
+    font-weight: 500;
+}
+
+
+@media (min-width: 1200px) {
+    .header_button{
+        grid-column: 2;
+    }
+}
