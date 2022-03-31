@@ -33,6 +33,9 @@ body{
   --green: rgb(151, 233, 151);
 }
 
+button:hover{
+  transform: scale(1.1);
+}
 
 @media (min-width: 800px) {
   body{
@@ -40,6 +43,7 @@ body{
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 200px;
     align-items: center;
     padding: 80px;
 }
