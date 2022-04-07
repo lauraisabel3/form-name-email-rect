@@ -3,6 +3,7 @@
     max-width: 600px;
     height: auto;
     padding: 0 40px 40px 40px;
+    margin: 0 auto;
 }
 
 .message_container h1{
